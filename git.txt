@@ -1,0 +1,30 @@
+C:\Users\HP\Desktop\IM_02>git add .
+
+C:\Users\HP\Desktop\IM_02>git commit -m "First local commit"
+Author identity unknown
+
+*** Please tell me who you are.c
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Belle@Halo.(none)')
+
+C:\Users\HP\Desktop\IM_02>
+C:\Users\HP\Desktop\IM_02>git config --global user.email "kmpnaaa.03@gmail.com"
+
+C:\Users\HP\Desktop\IM_02>git config --global user.name "Belle"
+
+
+C:\Users\HP\Desktop\IM_02>git commit -m "First local commit"
+[main 942daac] First local commit
+ 2 files changed, 2 insertions(+)
+ create mode 100644 hello.txt
+ create mode 100644 hi.txt
+
+C:\Users\HP\Desktop\IM_02>git push -u https://github.com/kampananana/IM_02 main
